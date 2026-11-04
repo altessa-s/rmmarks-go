@@ -174,11 +174,10 @@ go test -run='^$' -fuzz=FuzzPassages -fuzztime=30s .
 
 - **[rmmarks-lib](https://github.com/altessa-s/rmmarks-lib)** — the C23 library these bindings compile.
 - **[rmmarks-swift](https://github.com/altessa-s/rmmarks-swift)** — the same rules as a Swift package.
-- **[rmlines-go](https://github.com/altessa-s/rmlines-go)** — the `.rm` v6 page format for Go; its highlights are what this package places.
-- **[rmlines-lib](https://github.com/altessa-s/rmlines-lib)** and **[rmlines-swift](https://github.com/altessa-s/rmlines-swift)** — the same
-  page format for C and Swift.
-- **[rmdoc-swift](https://github.com/altessa-s/rmdoc-swift)** — the `.rmdoc` container a document and its pages travel in.
-- **[Slate Drive](https://slatedrive.app)** ([repository](https://github.com/altessa-s/slatedrive)) — the app these packages are part of.
+- **[rmlines-go](https://github.com/altessa-s/rmlines-go)** — the `.rm` v6 page format for Go: pages, strokes, typed text and highlights, read and
+  written.
+- **[rmdoc-go](https://github.com/altessa-s/rmdoc-go)** — the `.rmdoc` container for Go: the archive a document and its pages travel in.
+- **[rmrender-go](https://github.com/altessa-s/rmrender-go)** — reMarkable pages and documents drawn from Go to PNG and PDF.
 
 ## Acknowledgements
 

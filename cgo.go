@@ -25,7 +25,7 @@ static double rmmgo_within_a_line(void) { return RMM_WITHIN_A_LINE; }
 import "C"
 
 // Version is the version of the vendored rmmarks-lib.
-const Version = "1.0.1"
+const Version = "1.1.0"
 
 // The thresholds the matching rules are written in, as fractions.
 const (
