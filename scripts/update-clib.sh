@@ -49,7 +49,7 @@ else
     exit 1
 fi
 
-sources=(rmm_model rmm_support rmm_text rmm_unicode)
+sources=(rmm_model rmm_support rmm_text rmm_unicode rmm_unicode_data)
 private=(rmm_internal rmm_unicode_data)
 headers=(export rmmarks text types)
 
