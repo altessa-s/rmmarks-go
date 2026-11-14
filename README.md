@@ -160,7 +160,7 @@ C library's own spelling by a test.
 |---|---|
 | `*.go` | The API: `model.go` (boxes, text, marks), `text.go` (the operations), `errors.go`, `cgo.go`, `memory.go` (C arguments and results) |
 | `clib_*.c` | One line each, compiling a vendored C source into the package: cgo builds only the C files of the package directory |
-| `clib_digest.h` | Generated: the vendored tag and a digest of `internal/clib`, so that a change there rebuilds the package |
+| `clib_digest.h` | Generated: the vendored tag and a digest of `internal/clib`, which a test holds the vendored tree to |
 | `internal/clib/` | The vendored rmmarks-lib: `src/`, `include/rmmarks/`, its `LICENSE`, the Unicode data licence and the tag it was taken at in `VERSION` |
 | `scripts/update-clib.sh` | Re-vendors rmmarks-lib from a checkout, swapping the tree in whole and rewriting the digest: `scripts/update-clib.sh ../rmmarks-lib` |
 | `testdata/fuzz-seeds/` | Seeds for `FuzzPassages` |
